@@ -1,0 +1,147 @@
+* {
+  /* box-model */
+  margin: 0;
+  padding: 0;
+
+  /* Font */
+  font-family: 'Roboto', Verdana, sans-serif;
+  font-size: 15px;
+}
+
+a{
+ text-decoration: none;
+ color: black;
+ display: block;
+}
+
+article{
+  /* box-model */
+  border-radius: 10px;
+  width: 25%;
+  margin: 20px auto;
+
+  background-color: black;
+}
+
+article img{
+  /* box-model */
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+
+  object-fit: cover;
+}
+
+article:hover{
+  box-shadow: 0 0 11px;
+}
+
+.text h3, p {
+  /* box-model */
+  padding: 10px;
+
+  /* font */
+  font-weight: bold;
+  color: white;
+}
+
+h3 {
+  /* box-model */
+  border-right: 2px solid white;
+  width: 60%;
+
+  /* font */
+  font-size: 1.5rem;
+}
+
+p{
+  line-height: 1.5;
+}
+
+span{
+  /* font */
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+
+  /* color */
+  background-color:red;
+
+  /* box-model */
+  border-radius: 10px;
+  padding: 0.8rem;
+  width: 20%;
+
+  /* position */
+  position: absolute;
+  left: 70%;
+  top: 5%;
+
+}
+
+.text{
+  position: relative;
+}
+
+.out-of-stock p{
+  color: red;
+  font-size: .8rem;
+}
+
+.price{
+  position: relative;
+  top: -10px;
+}
+
+.company{ 
+  text-decoration-line: underline;
+}
+
+article .text-wrapper {
+  /* box-model */
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 0.5rem;
+  height: auto;
+}
+
+/* media queries */
+@media (max-width: 1000px) {
+  article {
+    min-width: 40%;
+  }
+}
+
+@media (max-width: 700px) {
+  article {
+    min-width: 60%;
+  }
+}
+
+@media (max-width: 530px) {
+  article{
+    min-width: 70%;
+  }
+ 
+}
+
+@media (max-width: 430px) {
+  article{
+    min-width: 80%;
+  }
+  * {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 300px) {
+  article{
+    min-width: 95%;
+  }
+
+  * {
+    font-size: 10px;
+  }
+ 
+}
+
