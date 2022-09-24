@@ -7,3 +7,7 @@
 - Boxing gloves image -> https://warriorfightstore.com/product/winning-blue-lace-up-boxing-gloves-12oz/
 
 - Fonts -> https://fonts.google.com/
+
+### GitHub Pages Link
+
+- https://eliewa.github.io/cpnt260-a2/
